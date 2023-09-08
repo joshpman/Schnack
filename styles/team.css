@@ -8,3 +8,45 @@
     src: url(../fonts/Inter-Bold.ttf);
 }
 
+.main__title{
+    font-size:98px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+.main{
+    font-family: Inter;
+}
+.shopping-cart-secondary g path{
+    fill:var(--color-primary);
+}
+.speakers__wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 200px;
+    grid-row-gap: 120px;
+    margin-left: 50px;
+}
+.speaker__wrapper{
+    max-width: 460px;
+}
+.speaker__photo{
+    width:310px;
+    height:310px;
+    object-fit: cover;
+    margin-bottom: 36px;
+}
+.speaker__name{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.speaker__title{
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+.speaker__bio{
+    font-size: 20px;
+}
+.speaker__title, .speaker__bio{
+    color: #000000;
+}

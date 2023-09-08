@@ -4,20 +4,25 @@
     --color-button-border: var(--color-text-on-primary);
     --color-button-primary-bg: var(--color-text-on-primary);
     --color-button-primary-text: var(--color-primary);
-    --color-button-secondary-bg: var(--color-primary);
-    --color-button-secondary-text: var(--color-text-on-primary);
+    --color-text-on-secondary: #000000;
 }   
 body{
     font-family: Inter, sans-serif;
-    background-color:var(--color-primary);
-    color:var(--color-text-on-primary);
+    background-color: var(--color-primary);
+    color: var(--color-text-on-primary);
+}
+.main{
+    padding:150px;
+}
+svg:hover,svg:focus{
+    cursor: pointer;
 }
 
 a{
     color: inherit;
     text-decoration: inherit;
 }
-p{
+p,h2{
     margin: 0;
 }
 .header{
@@ -32,7 +37,7 @@ p{
     font-size: 40px;
     font-family: InterBold;
 }
-.header img{
+header img{
     grid-area: shopping-cart;
 }
 .nav{
