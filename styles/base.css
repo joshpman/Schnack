@@ -1,4 +1,50 @@
 :root{
     --color-primary:#FF7B54;
     --color-text-on-primary:#FFF;
+    --color-button-border: var(--color-text-on-primary);
+    --color-button-primary-bg: var(--color-text-on-primary);
+    --color-button-primary-text: var(--color-primary);
+    --color-button-secondary-bg: var(--color-primary);
+    --color-button-secondary-text: var(--color-text-on-primary);
+}   
+body{
+    font-family: Inter, sans-serif;
+    background-color:var(--color-primary);
+    color:var(--color-text-on-primary);
 }
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+p{
+    margin: 0;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 3fr 34px;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logo nav shopping-cart";
+    align-items: center;
+    padding: 0 60px 0 60px;
+}
+.header__link{
+    font-size: 40px;
+    font-family: InterBold;
+}
+.header img{
+    grid-area: shopping-cart;
+}
+.nav{
+    display: inline-block;
+    justify-self: end;
+}
+.nav__list{
+    list-style: none;
+    display: flex;
+}
+.nav__list-item{
+    margin-inline-end: 36px;
+    font-size: 20px;
+}
+

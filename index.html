@@ -11,23 +11,24 @@
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <header>
-        <a href="/">Schnack.io</a>
-        <div>
-            <nav>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="speakers.html">Team</a></li>
-                    <li><a href="#">Contact</a></li>
+    <header class="header">
+        <a class="header__link" href="/">Schnack.io</a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__list-item"><a href="#">About</a></li>
+                    <li class="nav__list-item"><a href="team.html">Team</a></li>
+                    <li class="nav__list-item"><a href="#">Contact</a></li>
                 </ul>
             </nav>
             <img src="./icons/shopping-cart.svg" alt="Shopping cart">
-        </div>
     </header>
-    <main>
-        <p>Schnack.io is a AI Assistant to help with online food ordering.</p>
-        <p>Not released yet</p>
-        <button>Get more info<img src="./icons/arrow-right.svg" alt="Right arrow"></button>
+    <main class="main">
+        <p class="main__heading">Schnack.io is a AI Assistant to help with online food ordering.</p>
+        <p class="main__subheading">Not released yet</p>
+        <div class="button-container">
+            <button class="button button--primary">Get more info <img src="./icons/arrow-right.svg" alt="Right arrow" class="button__icon"></button>
+            <button class="button button--secondary">Contact Us</button>
+        </div>
     </main>
 </body>
 </html>
