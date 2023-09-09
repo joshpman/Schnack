@@ -1,0 +1,45 @@
+@import './base.css';
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: InterBold;
+    src: url(../fonts/Inter-Bold.ttf);
+}
+.shopping-cart-primary g path{
+    fill:var(--color-text-on-primary);
+}
+h1,h2{
+    margin: 0;
+}
+
+.main__about{
+    text-align: center;
+}
+.about__header{
+    margin-top: 7%;
+    font-size:50px;
+}
+.about__subheader{
+    font-size:75px;
+    margin-bottom: 15px;
+}
+.lower__wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "11 12", "21 22", "31 32";
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.about__text{
+    font-size: 40px;
+    font-family:Inter;
+}
+.about__photo{
+    grid-area: 12;
+    height:300px;
+    width: 300px;
+    object-fit: contain;
+}

@@ -16,9 +16,11 @@
 .main{
     font-family: Inter;
 }
-.shopping-cart-secondary g path{
-    fill:var(--color-primary);
+
+.shopping-cart-primary g path{
+    fill:var(--color-text-on-primary);
 }
+
 .speakers__wrapper{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
