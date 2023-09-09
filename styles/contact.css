@@ -1,0 +1,13 @@
+@import './base.css';
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: InterBold;
+    src: url(../fonts/Inter-Bold.ttf);
+}
+
+.shopping-cart-primary g path{
+    fill:var(--color-text-on-primary);
+}

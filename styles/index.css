@@ -20,6 +20,7 @@ a{
 }
 
 .home .main__heading{
+    padding-top: 100px;
     font-size: 128px;
     font-family:InterBold;
 }
