@@ -12,6 +12,7 @@
     fill:var(--color-text-on-primary);
 }
 .contact__header{
+    font-size: 60px;
     text-align: center;
     padding-bottom: 3.5% ;
 }
@@ -21,6 +22,9 @@
     grid-template-rows: 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 0px;
+}
+h2.contact__faq{
+    white-space: normal;
 }
 
 h2{
