@@ -112,6 +112,7 @@ h1,h2,h3{
 .footer__button:hover, .footer__button:focus{
     color: var(--color-button-primary-text);
     background-color: var(--color-button-border);
+    border: 15px solid var(--color-button-border);
     transition: .5s;
 }
 button{
