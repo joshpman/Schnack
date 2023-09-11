@@ -8,10 +8,6 @@
     src: url(../fonts/Inter-Bold.ttf);
 }
 
-.menu{ 
-    display: none;
-}
-
 .home .menu path{
     fill: var(--color-text-on-primary);
 }
@@ -133,15 +129,3 @@ a{
     }
 }
 
-@media(max-width: 840px){
-    .menu{
-        display: block;
-    }
-    .nav{ 
-        display:none;
-    }
-    .header{
-        grid-template-columns: 33px 1fr 34px; 
-        justify-items: center;
-    }
-}

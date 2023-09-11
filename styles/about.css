@@ -15,6 +15,7 @@
 h1,h2,h3{
     margin: 0;
     padding: 0;
+    font-size: 32px;
 }
 
 .main__about{
@@ -22,8 +23,8 @@ h1,h2,h3{
     text-align: center;
 }
 .about__header{
-    margin-top: 7%;
-    font-size:50px;
+    margin-top: 4%;
+    font-size:90px;
 }
 .about__subheader{
     font-size:75px;
@@ -39,7 +40,7 @@ h1,h2,h3{
     
 }
 .about__text{
-    font-size: 40px;
+    font-size: 64px;
     font-family:Inter;
     line-height: 125%;
 }
@@ -87,6 +88,7 @@ h1,h2,h3{
 }
 #l1__about, #l2__about, #l3__about{
     align-self: center;
+    font-size: 75px;
 }
 .about__footer{
     margin-top: 3%;
@@ -99,7 +101,7 @@ h1,h2,h3{
 }
 .footer__text{
    text-align: center;
-   font-size: 64px;
+   font-size: 75px;
    padding-bottom: 50px;
 }
 .button__wrapper__footer{
@@ -128,4 +130,71 @@ h1,h2,h3{
 }
 button{
     transition: outline 0.15s linear;
+}
+
+@media(max-width: 1000px){
+    .about__header{
+        margin-top: 7%;
+        font-size:60px;
+    }
+    .about__subheader{
+        font-size:50px;
+        margin-bottom: 15px;
+    }
+    .about__text{
+        font-size:32px;
+    }
+    #l1__about, #l2__about, #l3__about{
+        font-size:32px;
+    }
+    .footer__text{
+        font-size:40px;
+    }
+    .footer__button{
+        width: 60%;
+    }
+    .button__wrapper__footer{
+        padding-left: 28vw;
+    }
+}
+
+@media(max-width: 840px){
+    .lower__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__photo, .about__photo2, .about__photo3{
+        width: 100%;
+        padding: 0;
+        padding-bottom: 5vh;
+        padding-top: 5vh;
+    }
+
+}
+
+@media(max-width: 500px){
+    .about__header{
+        margin-top: 7%;
+        font-size:60px;
+    }
+    .about__subheader{
+        font-size:50px;
+        margin-bottom: 15px;
+    }
+    .about__text{
+        font-size:32px;
+    }
+    #l1__about, #l2__about, #l3__about{
+        font-size:32px;
+    }
+    .footer__text{
+        font-size:40px;
+    }
+    .footer__button{
+        width: 60%;
+    }
+    .button__wrapper__footer{
+        padding-left: 28vw;
+    }
 }
