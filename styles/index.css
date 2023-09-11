@@ -20,7 +20,6 @@
     height: 30px;
 }
 main.main{
-    padding-top: 11vh;
     padding-left: 10vw;
     padding-right: 0;
 }
@@ -34,7 +33,7 @@ a{
 }
 
 .home .main__heading{
-    padding-top: 1vh;
+    padding-top: 7vh;
     font-size: 128px;
     font-family:InterBold;
 }
