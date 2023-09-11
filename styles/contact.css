@@ -51,11 +51,20 @@ h2.form__header{
     font-family:Inter;
     font-size: 25px;
 }
-.faq__button__wrapper{
-    padding-top: 2%;
-    text-align: center; 
+.faq__redirect{
+    display: inline-block; /* Added this line */
+    margin: 0; /* Added this line */
+    font: 32px Inter;
+    align-items: center;
+    color: var(--color-button-border);
+    width: 50%;
+    min-height: 50px;
+    padding: 1%;
+    background-color: var(--color-button-primary-text);
+    border: 6px solid var(--color-button-border);
+    cursor: pointer;
 }
-.faq__redirect, .submit{
+.submit{
     align-items: center;
     color: var(--color-button-border);
     width: 30%;
@@ -80,8 +89,7 @@ h2.form__header{
     background-color: var(--color-button-border);
     border: 15px solid var(--color-button-border);
     transition: .5s;
-}
-.faq__redirect{
+} font: 32px Inter;
     width: 50%;
     min-height: 50px;
     padding: 1%;
@@ -173,4 +181,7 @@ h2.form__header{
     .form__item label{
         font-size: 20px;
     }
+    .faq__redirect{
+        width: 90vw;
+    } 
 }
