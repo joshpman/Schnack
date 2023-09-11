@@ -82,7 +82,7 @@ header img{
         background: var(--color-primary);
         top: 60px;
         left: -100%;
-        padding-top: 60px;
+        padding-top: 20px;
         transition: left 0.3s linear;
     }
     .close--show{
@@ -93,20 +93,22 @@ header img{
     }
     .nav--visible{
         left: 0;
-        padding-left: 20vw;
+        padding-left: 10vw;
     }
     .nav__list{
+        align-items: left;
         flex-direction: column;
         justify-content: space-around;
         height: 80%;
     }
     .nav__list-item{
-        font-size: 60px;
+        font-size: 50px;
         font-family: InterBold;
     }
     .header{
         grid-template-columns: 33px 1fr 34px; 
         justify-items: center;
+        grid-column-gap: 3vw;
     }
     .body--no-scroll{
         overflow: hidden;
