@@ -157,6 +157,28 @@ button{
         width: 100%;   
     }
 }
+@media(max-width: 1440px){
+    about__header{
+        margin-top: 7%;
+        font-size:60px;
+    }
+    .about__subheader{
+        font-size:50px;
+        margin-bottom: 15px;
+    }
+    .about__text{
+        font-size:32px;
+    }
+    #l1__about, #l2__about, #l3__about{
+        font-size:40px;
+    }
+    .footer__text{
+        font-size:45px;
+    }
+    .footer__button{
+        font-size: 30px;
+    }
+}
 
 @media(max-width: 840px){
     .lower__wrapper{

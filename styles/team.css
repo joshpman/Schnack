@@ -53,6 +53,11 @@
     color: #000000;
 }
 
+@media(max-width: 1440px){
+    .main__title{
+        font-size: 75px;
+    }
+}
 @media(max-width: 1000px){
      .speakers__wrapper{
         grid-template-columns: 1fr;
