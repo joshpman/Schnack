@@ -17,7 +17,7 @@ body{
     color: var(--color-text-on-primary);
 }
 .main{
-    padding:0px;
+    padding: 0px;
 }
 svg:hover,svg:focus{
     cursor: pointer;
