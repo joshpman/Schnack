@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/faq.css">
+    <link rel="icon" type="image/png" href="./icons/34_85252.ico"/>
 </head>
 <body class="body body--primary home">
     <header class="header">
@@ -50,5 +51,20 @@
             <p class="FAQ__answer">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad sint, iusto cumque a, praesentium tempore itaque esse corporis accusantium dolor nobis ex perspiciatis labore minus quas in enim assumenda numquam?</p>
         </div>
     </div>
+    <script>
+        var acc = document.getElementsByClassName("FAQ__accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+            } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+}
+    </script>
 </body>
 </html>

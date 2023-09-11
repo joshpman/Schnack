@@ -52,3 +52,14 @@
 .speaker__title, .speaker__bio{
     color: #000000;
 }
+
+@media(max-width: 1000px){
+     .speakers__wrapper{
+        grid-template-columns: 1fr;
+     }
+}
+@media(max-width: 815px){
+    .main{
+        padding: 40px;
+    }
+}

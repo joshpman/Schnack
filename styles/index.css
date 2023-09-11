@@ -12,6 +12,10 @@
 .shopping-cart-primary g path{
     fill:var(--color-text-on-primary);
 }
+.shopping-cart-primary{
+    width: 34px;
+    height: 30px;
+}
 
 
 a{
@@ -36,17 +40,36 @@ a{
     cursor:pointer;
     transition: outline 0.2s linear;
 }
-.button:hover,.button:focus{
-    outline: 4px solid var(--color-text-on-primary);
-}
-.button--primary{
-    background-color:var(--color-button-primary-bg);
-    color:var(--color-button-primary-text);
-}
-.button--secondary{
+
+.button--primary:hover, .button--primary:focus{
     background-color:var(--color-button-secondary-bg);
-    color:var(--color-button-secondary-text);
+    color:var(--color-text-on-primary);
+    transition: .5s linear;
 }
+.button--primary:hover .button__icon{
+    fill: var(--color-text-on-primary);
+    transition: .5s linear;
+}
+.button--primary:not(:hover){
+    background-color:var(--color-text-on-primary);
+    color:var(--color-primary);
+    transition: .5s linear;
+}
+.button--secondary:hover, .button--secondary:focus{
+    background-color:var(--color-text-on-primary);
+    color:var(--color-primary);
+    transition: .5s linear;
+}
+.button--secondary:not(:hover){
+    background-color:var(--color-primary);
+    color:var(--color-text-on-primary);
+    transition: .5s linear;
+}
+.button__icon{
+    fill: var(--color-button-primary-text);
+    vertical-align: middle;
+}
+
 .button-container{
     display:flex;
     margin-top: 100px;
@@ -54,6 +77,51 @@ a{
 .button:not(button:last-of-type){
     margin-inline-end: 20px;
 }
-.button__icon{
-    vertical-align: middle;
+
+/* All Media Queries are below this point*/
+
+@media(max-width: 1220px){
+    .home .main__heading{
+        font-size: 70px;
+    }
+    .button{
+        font-size: 24px;
+        padding: 0 32px;
+        height: 70px;
+    }
+    .button svg{
+        width: 20px;
+    }
+}
+
+@media(max-width: 590px){
+    .home .main__heading{
+        font-size: 40px;
+    }
+    .home .main__subheading{
+        font-size: 24px;
+    }
+   
+    .button svg{
+        visibility: hidden;
+    }
+}
+@media(max-width: 815px){
+    .main{
+        padding: 75px;
+    }
+}
+@media(max-width: 700px){
+    .main{
+        padding-left: 50px;
+    }
+    .button{
+        font-size: 16px;
+        margin-top: 24px;
+    }
+
+    .button-container{
+        margin-top: 32px;
+        flex-wrap: wrap;
+    }
 }

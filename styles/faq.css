@@ -1,0 +1,51 @@
+@import './base.css';
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: InterBold;
+    src: url(../fonts/Inter-Bold.ttf);
+}
+
+.shopping-cart-primary g path{
+    fill:var(--color-text-on-primary);
+}
+.top__header{
+    text-align: center;
+    font-size: 60px;
+}
+
+.FAQ__accordion{
+    font-family: InterBold;
+    margin-bottom: .5%;
+    font-size: 40px;
+    background-color: var(--color-text-on-primary);
+    color: var(--color-primary);
+    cursor: pointer;
+    width:100%;
+    text-align: center;
+    border: none;
+    outline: none; 
+    transition: .4s;
+}
+.active, .FAQ__accordion{
+    background-color: #fff;
+}
+.FAQ__panel {
+    padding: 0 18px;
+    background-color: var(--color-primary);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+.FAQ__answer{
+    margin-bottom: .5%;
+    vertical-align: center;
+    text-align: center;
+}
+/*
+FAQ__accordion
+FAQ__panel
+FAQ__answer
+*/
