@@ -96,10 +96,9 @@ header img{
         padding-left: 10vw;
     }
     .nav__list{
-        align-items: left;
         flex-direction: column;
         justify-content: space-around;
-        height: 80%;
+        height: 75%;
     }
     .nav__list-item{
         font-size: 50px;
@@ -108,7 +107,7 @@ header img{
     .header{
         grid-template-columns: 33px 1fr 34px; 
         justify-items: center;
-        grid-column-gap: 3vw;
+        grid-column-gap: 5vw;
     }
     .body--no-scroll{
         overflow: hidden;
@@ -117,6 +116,12 @@ header img{
     }
     html.body--no-scroll{
         overflow: hidden;
+    }
+}
+
+@media(max-width: 560px){
+    .nav__list-item{
+        font-size: 32px;
     }
 }
 
