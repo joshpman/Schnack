@@ -24,7 +24,9 @@
     padding-left: 10vw;
     padding-right: 0;
 }
-
+p.main__heading{
+    padding-top: 0;
+}
 
 a{
     color: inherit;
