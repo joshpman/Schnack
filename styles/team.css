@@ -62,4 +62,7 @@
     .main{
         padding: 40px;
     }
+    .main__title{
+        font-size: 50px;
+    }
 }

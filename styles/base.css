@@ -74,7 +74,9 @@ header img{
     .menu{
         display: block;
     }
-    
+    .header{
+        padding-left: 4vw;
+    }
     .nav{
         position: absolute;
         width: 100vw;
