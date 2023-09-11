@@ -97,9 +97,6 @@ h2.form__header{
     padding: 0;
     padding-left: 7.5%;
 }
-input, textarea{
-   /*background-color: grey;*/
-}
 
 .form__item textarea{
     font-family: Inter;
@@ -127,10 +124,5 @@ input, textarea{
 @media(max-width: 1400px){
     .contact__wrapper{
         grid-template-columns: 1fr;
-    }
-}
-@media(max-width: 815px){
-    .main{
-        padding: 75px;
     }
 }
