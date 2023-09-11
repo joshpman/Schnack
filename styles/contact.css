@@ -53,7 +53,7 @@ h2.form__header{
 }
 .faq__button__wrapper{
     padding-top: 2%;
-    text-align: center;
+    text-align: center; 
 }
 .faq__redirect, .submit{
     align-items: center;

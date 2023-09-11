@@ -105,12 +105,12 @@ h1,h2,h3{
    padding-bottom: 50px;
 }
 .button__wrapper__footer{
-    padding-left: 41%;
+    padding-left: 29vw;
 }
 .footer__button{
     align-items: center;
     color: var(--color-button-border);
-    width: 30%;
+    width: 60%;
     height: 100%;
     font: 32px Inter;
     background-color: var(--color-button-primary-text);
@@ -150,11 +150,11 @@ button{
     .footer__text{
         font-size:40px;
     }
-    .footer__button{
-        width: 60%;
-    }
     .button__wrapper__footer{
         padding-left: 28vw;
+    }
+    .faq__button__wrapper{
+        width: 100%;   
     }
 }
 
@@ -176,14 +176,14 @@ button{
 @media(max-width: 500px){
     .about__header{
         margin-top: 7%;
-        font-size:60px;
+        font-size:50px;
     }
     .about__subheader{
-        font-size:50px;
+        font-size:40px;
         margin-bottom: 15px;
     }
     .about__text{
-        font-size:32px;
+        font-size:25px;
     }
     #l1__about, #l2__about, #l3__about{
         font-size:32px;
@@ -192,7 +192,6 @@ button{
         font-size:40px;
     }
     .footer__button{
-        width: 60%;
         font-size: 20px;
     }
     .button__wrapper__footer{

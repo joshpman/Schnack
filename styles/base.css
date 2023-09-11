@@ -1,6 +1,11 @@
 :root{
+    /*
+    --color-primary: #4f0147;
+    --color-text-on-primary:#FFF;
+    */
     --color-primary: #FF7B54;
     --color-text-on-primary:#FFF;
+    
     --color-button-border: var(--color-text-on-primary);
     --color-button-primary-bg: var(--color-text-on-primary);
     --color-button-primary-text: var(--color-primary);

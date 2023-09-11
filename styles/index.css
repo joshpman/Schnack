@@ -27,7 +27,7 @@ a{
 }
 
 .home .main__heading{
-    padding-top: 100px;
+    padding-top: 1vh;
     font-size: 128px;
     font-family:InterBold;
 }
@@ -113,6 +113,7 @@ a{
     .main{
         padding: 75px;
     }
+    
 }
 @media(max-width: 700px){
     .main{

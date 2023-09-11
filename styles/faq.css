@@ -45,6 +45,18 @@
     text-align: center;
 }
 
+@media(max-width: 600px){
+    .top__header{
+        font-size: 40px;
+    }
+    .FAQ__accordion{
+        font-size: 30px;
+    }
+    p.FAQ__answer{
+        font-size: 20px;
+        padding-bottom: 2vh;
+    }
+}
 /*
 FAQ__accordion
 FAQ__panel
