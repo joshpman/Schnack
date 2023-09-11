@@ -106,7 +106,7 @@ a{
     }
    
     .button svg{
-        visibility: hidden;
+        display: none;
     }
 }
 @media(max-width: 815px){
