@@ -126,3 +126,51 @@ h2.form__header{
         grid-template-columns: 1fr;
     }
 }
+
+@media(max-width: 1200px){
+    .contact__faq__wrapper{
+        padding-bottom: 20vh;
+    }
+}
+
+@media(max-width: 850px){
+    .contact__header{
+        font-size: 75px;
+    }
+    .contact__faq{
+        font-size: 50px;
+    }
+    .faq__insert{
+        font-size: 30px;
+    }
+    .faq__answer{
+        font-size: 20px;
+    }
+    .form__header{
+        font-size: 50px;
+    }
+    .form__item label{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 600px){
+    .contact__header{
+        font-size: 50px;
+    }
+    .contact__faq{
+        font-size: 30px;
+    }
+    .faq__insert{
+        font-size: 20px;
+    }
+    .faq__answer{
+        font-size: 20px;
+    }
+    .form__header{
+        font-size: 30px;
+    }
+    .form__item label{
+        font-size: 20px;
+    }
+}
