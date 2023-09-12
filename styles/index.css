@@ -89,7 +89,14 @@ a{
 }
 
 /* All Media Queries are below this point*/
-
+@media(max-width: 1440px){
+    .home .main__heading{
+        font-size: 85px;
+    }
+    .button{
+        font-size: 24px;
+    }
+}
 @media(max-width: 1220px){
     .home .main__heading{
         font-size: 70px;

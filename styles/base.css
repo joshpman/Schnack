@@ -74,7 +74,11 @@ header img{
     cursor: pointer;
 }
 
-
+@media(max-width: 1440px){
+    .nav__list-item{
+        font-size: 28px;
+    }
+}
 @media(max-width: 840px){
     .menu{
         display: block;

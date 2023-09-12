@@ -129,7 +129,7 @@ h2.form__header{
     width: 100%;
 }
 
-@media(max-width: 1400px){
+@media(max-width: 1440px){
     .contact__wrapper{
         grid-template-columns: 1fr;
     }
